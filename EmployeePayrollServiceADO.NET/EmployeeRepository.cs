@@ -133,5 +133,34 @@ namespace EmployeePayrollServiceADO.NET
             }
 
         }
+        // UC3:- Ability to update the salary i.e. the base pay for Employee  Terisa to 3000000.00 and sync it with Database.
+                         
+        public bool UpdateBasicPay(string EmployeeName, double BasicPay)
+        {
+            try
+            {
+                using (connection)
+                {
+                    connection.Open();
+                    string query = @"update dbo.payroll_service set BasicPay=@inputBasicPay where EmployeeName=@inputEmployeeName";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@inputBasicPay", BasicPay); //parameters transact SQl stament or store procedure
+                    command.Parameters.AddWithValue("@inputEmployeeName", EmployeeName);
+                    var result = command.ExecuteNonQuery(); //ExecuteNonQuery and store result
+                    Console.WriteLine("Record Update Successfully");
+                    connection.Close();
+                    GetAllEmployeeData(); // call method and show record
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return true;
+        }
     }
 }
