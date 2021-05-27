@@ -162,5 +162,34 @@ namespace EmployeePayrollServiceADO.NET
             }
             return true;
         }
+        //UC4: Ability to update the salary i.e. the base pay for Employee Terisa to 3000000.00 and sync it with Database using JDBC Prepared Statement.
+
+
+        public double UpdatedSalaryFromDatabase(string EmployeeName)
+        {
+
+            string cconnectionString = @"Data Source=ABHISHEK\SQLEXPRESS;Initial Catalog=payroll_service;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"; //Specifying the connection string from the sql server connection.
+
+            SqlConnection connection = new SqlConnection(cconnectionString);
+            try
+            {
+                using (connection)
+                {
+                    string query = @"select BasicPay from dbo.payroll_service where EmployeeName=@inputEmployeeName";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    connection.Open();
+                    command.Parameters.AddWithValue("@inputEmployeeName", EmployeeName);
+                    return (double)command.ExecuteScalar();//Using ExecuteScalar for retrieve a single value from Database after the execution of the SQL Statement. 
+                }                                               //The ExecuteScalar() executes SQL statements as well as Stored Procedure and returned a scalar value on first column of first row in the returned Result Set.
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
     }
 }
