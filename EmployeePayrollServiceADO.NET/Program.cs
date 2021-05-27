@@ -17,7 +17,8 @@ namespace EmployeePayrollServiceADO.NET
             //AddRecordInput(); // UC2 add Record for database
             //repository.UpdateBasicPay("Terisa", 3000000);//UC3 update BasicPay where name is Terisa table 
             //repository.UpdatedSalaryFromDatabase("Terisa"); //UC4
-             repository.EmployeesFromForDateRange("2020-01-15"); //UC5
+             //repository.EmployeesFromForDateRange("2020-01-15"); //UC5
+             repository.FindGroupedByGenderRecord("F");//UC6
         }
         public static void AddRecordInput() //UC2 Adding record inputs on the table
         {

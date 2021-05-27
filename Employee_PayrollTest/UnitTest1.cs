@@ -69,9 +69,33 @@ namespace Employee_PayrollTest
             Assert.AreEqual(BasicPay, expectedPay); //Assert
 
         }
+        // TC6:- Ability to find sum, average, min, max and number of male and female employees.*/
+
+        [Test]
+
+        public void FindGroupedByGenderRecord()
+
+        {
+
+            string Gender = "M"; //Arrange
+
+            bool expected = true; //expected true 
+
+            EmployeeRepository repository = new EmployeeRepository();
+
+            bool actual = repository.FindGroupedByGenderRecord(Gender); //call method and pass parameter
+
+            Assert.AreEqual(expected, actual); //Assert
+
+        }
 
     }
+
 }
+
+
+    
+
 
 
     
