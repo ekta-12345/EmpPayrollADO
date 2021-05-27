@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#\\EMP ADO\\Employee_PayrollTest\\Employee_PayrollTest.csproj": {}
+  },
+  "projects": {
+    "D:\\C#\\EMP ADO\\EmployeePayrollServiceADO.NET\\EmployeePayrollServiceADO.NET.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\C#\\EMP ADO\\EmployeePayrollServiceADO.NET\\EmployeePayrollServiceADO.NET.csproj",
+        "projectName": "EmployeePayrollServiceADO.NET",
+        "projectPath": "D:\\C#\\EMP ADO\\EmployeePayrollServiceADO.NET\\EmployeePayrollServiceADO.NET.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\C#\\EMP ADO\\Employee_PayrollTest\\Employee_PayrollTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\EMP ADO\\Employee_PayrollTest\\Employee_PayrollTest.csproj",
+        "projectName": "Employee_PayrollTest",
+        "projectPath": "D:\\C#\\EMP ADO\\Employee_PayrollTest\\Employee_PayrollTest.csproj",
+        "packagesPath": "C:\\Users\\Chandrakant Kumbhare\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\EMP ADO\\Employee_PayrollTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chandrakant Kumbhare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\C#\\EMP ADO\\EmployeePayrollServiceADO.NET\\EmployeePayrollServiceADO.NET.csproj": {
+                "projectPath": "D:\\C#\\EMP ADO\\EmployeePayrollServiceADO.NET\\EmployeePayrollServiceADO.NET.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

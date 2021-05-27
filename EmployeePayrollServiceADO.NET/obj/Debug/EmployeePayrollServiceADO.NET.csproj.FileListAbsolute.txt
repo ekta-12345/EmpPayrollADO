@@ -1,0 +1,20 @@
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\bin\Debug\EmployeePayrollServiceADO.NET.exe.config
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\bin\Debug\EmployeePayrollServiceADO.NET.exe
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\bin\Debug\EmployeePayrollServiceADO.NET.pdb
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\bin\Debug\System.Data.SqlClient.dll
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\bin\Debug\System.Data.SqlClient.xml
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.csprojAssemblyReference.cache
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.csproj.CoreCompileInputs.cache
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.csproj.CopyComplete
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.exe
+D:\Practice\C#\EmployeePayrollServiceADO.NET\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.pdb
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\bin\Debug\EmployeePayrollServiceADO.NET.exe.config
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\bin\Debug\EmployeePayrollServiceADO.NET.exe
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\bin\Debug\EmployeePayrollServiceADO.NET.pdb
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\bin\Debug\System.Data.SqlClient.dll
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\bin\Debug\System.Data.SqlClient.xml
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.csprojAssemblyReference.cache
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.csproj.CoreCompileInputs.cache
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.csproj.CopyComplete
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.exe
+D:\C#\EMP ADO\EmployeePayrollServiceADO.NET\obj\Debug\EmployeePayrollServiceADO.NET.pdb
